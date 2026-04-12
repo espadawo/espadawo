@@ -27,7 +27,7 @@ jobs:
           # Options
           user: espadawo
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, repositories, metadata
           config_timezone: Europe/Kaliningrad
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
@@ -42,3 +42,7 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base
